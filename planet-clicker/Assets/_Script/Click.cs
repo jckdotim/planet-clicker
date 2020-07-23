@@ -27,7 +27,7 @@ namespace _Script
         public void Set(int id)
         {
             image.sprite = null;
-            var sprite = Resources.Load<Sprite>($"Images/0{id}") ?? Resources.Load<Sprite>($"Images/01");
+            var sprite = Resources.Load<Sprite>($"Images/csm_0{id}") ?? Resources.Load<Sprite>($"Images/csm_01");
             image.sprite = sprite;
             image.SetNativeSize();
         }
